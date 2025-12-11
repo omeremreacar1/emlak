@@ -1,3 +1,14 @@
-.custom-bg {
+/* General */
+
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.custom-background-color {
   background-color: #2596be;
+}
+
+.custom-font-color {
+  color: #2596be;
 }
