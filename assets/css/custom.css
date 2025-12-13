@@ -5,8 +5,21 @@
   -webkit-user-select: none;
 }
 
-.custom-background-color {
+.custom-bg {
   background-color: #2596be;
+}
+
+.button-bg {
+  background-color: #2596be !important;
+  transition: background-color 0.3s ease;
+}
+
+.button-bg:hover {
+  background-color: #1d7fa3 !important;
+}
+
+.button-bg:active {
+  background-color: #1d7fa3 !important;
 }
 
 .custom-font-color {
